@@ -1,7 +1,7 @@
 # 🤖 bot_RevokeBot
 
 ## 📝 简介
-bot_RevokeBot 是一个使用 jieba 库进行自动撤回不合规发言的项目。
+bot_RevokeBot 是一个使用 jieba 库进行自动撤回不合规发言的项目。该项目使用了 Botoy 作为框架。
 
 ## 🔧 安装方法
 1. 将 bot_RevokeBot 移动到 plugins 文件夹内。
