@@ -42,6 +42,6 @@ def main(ctx=GroupMsg):
             ShutTime=2                              #这里是你需要禁言的时长，单位为分钟
             )
         S.bind(ctx).text("根据结果，此发言不合规，已自动撤回。")
-        S.bind(ctx).text("Base64后的原文： " + str(base64.b64encode(msg.encode('utf-8').decode('utf-8'))),True)
+        S.bind(ctx).text("Base64后的原文： " + base64.b64encode(msg.encode('utf-8')).decode(),True)
     else:
         print("pass")
